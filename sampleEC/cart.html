@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>カート</title>
+	<link rel="stylesheet" href="cart.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>カート</h1>
+	</header>
+
+	<main>
+		<section class="cart-items" id="cart-items">
+			<h2>カート内商品</h2>
+			<ul>
+				<!-- カート内商品のリスト -->
+				<li class="cart-item">
+					<img src="https://example.com/product1.jpg" alt="商品1の画像">
+					<div class="cart-item-info">
+						<h3 class="cart-item-name">商品1</h3>
+						<p class="cart-item-price">¥1,000</p>
+						<p class="cart-item-quantity">数量: 1</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="cart-controls">
+			<button class="checkout-btn">レジに進む</button>
+			<button class="empty-cart-btn" onclick="deleteCart()">カートを空にする</button>
+		</section>
+	</main>
+</body>
+</html>

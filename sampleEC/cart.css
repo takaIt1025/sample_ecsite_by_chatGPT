@@ -1,0 +1,69 @@
+/* 共通スタイル */
+body {
+	font-family: sans-serif;
+}
+
+/* カートページ特有のスタイル */
+.cart-items {
+	margin-bottom: 30px;
+}
+
+.cart-items ul {
+	list-style: none;
+	padding: 0;
+}
+
+.cart-item {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.cart-item img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.cart-item-info {
+	flex-grow: 1;
+}
+
+.cart-item-name {
+	margin: 0;
+	font-size: 20px;
+}
+
+.cart-item-price {
+	margin: 10px 0;
+}
+
+.cart-item-quantity {
+	margin: 0;
+}
+
+.cart-controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkout-btn {
+	background-color: #1abc9c;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.empty-cart-btn {
+	background-color: #e74c3c;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
